@@ -3,9 +3,6 @@ name: Android CI Build
 on:
   push:
     branches: [ "main" ]
-    paths:
-      - 'CaseDiaryApp_with_CI.zip'
-      - '.github/workflows/unzip-build.yml'
 
 jobs:
   build:
